@@ -1,29 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello Rigo with Vanilla.js</title>
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-      crossorigin="anonymous"
-    />
-    <link rel="shortcut icon" href="./4geeks.ico" />
+    <title>Random Card</title>
+    <link href="style.css" rel="stylesheet" />
   </head>
   <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
-      </div>
+    <div>
+      <button id="reset">Reset</button>
     </div>
+
+    <div id="card" class="card">
+      <div id="numberCard"></div>
+      <div id="symbolCard"></div>
+      <div id="numberCard2"></div>
+    </div>
+
+    <script src="app.js"></script>
   </body>
 </html>
+
+<!--Siendo sincero no me di cuenta hasta el final que la carta del ejemplo
+    de proyecto tiene dos simbolos y un número, al reves de como lo he hecho
+    si es un problema para la entrega no tengo problemas en repetir-->

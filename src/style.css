@@ -1,1 +1,48 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background: green;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 150px;
+}
+
+#card {
+  width: 400px;
+  height: 600px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+#numberCard {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 20px;
+  font-size: 400%;
+}
+
+#symbolCard {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 800%;
+}
+
+#numberCard2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-right: 20px;
+  font-size: 400%;
+}
+
+#reset {
+  font-size: 200%;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  margin-bottom: 20px;
+}
